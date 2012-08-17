@@ -1,0 +1,18 @@
+Source: firefox-inaes
+Section: net
+Priority: optional
+Maintainer: Niv Sardi <xaiki@debian.org>
+Build-Depends: debhelper (>= 8), po-debconf
+Standards-Version: 3.9.2
+Homepage: http://tic.inaes.gob.ar
+Vcs-Git: http://git.tic.inaes.gob.ar/packages/firefox-inaes
+
+Package: firefox-inaes
+Architecture: all
+Pre-Depends: iceweasel
+Conflicts: firefox
+Replaces: Firefox
+Depends: ${misc:Depends}
+Description: Firefox branding for INAES
+ This is a simple package to make iceweasel appear with the firefox name and icon
+ We are well aware that this violates the Mozilla licensing bullshit, but, oh well.
